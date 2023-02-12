@@ -34,7 +34,7 @@ body {
     border-width: 0;
 }
 
-h1 {
+h1, h2 {
     margin: 0;
 }
 
@@ -173,3 +173,32 @@ h1 {
     transform: translate(5px, -5px);
 }
 
+
+
+
+
+/* about me */
+.about-me-head {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 32px;
+
+    margin-bottom: 30px;
+}
+
+.location {
+    font-family: inherit;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+
+    margin-bottom: 10px;
+}
+
+.about-me-text {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 20px;
+
+    margin-bottom: 10px;
+}
