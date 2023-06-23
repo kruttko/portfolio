@@ -1,0 +1,65 @@
+.intro-section-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-photo {
+    display: inline-block;
+    width: 800px;
+    height: 470px;
+    margin-right: 100px;
+
+    background-image: url(../images/my-photo.jpg);
+    // background-image: url(../images/my-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.intro-text-container {
+    display: inline-block;
+}
+
+.intro-head {
+    margin-bottom: 40px;
+
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.intro-head-name {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.intro-text {
+    margin-bottom: 20px;
+
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.linked-link {
+    display: flex;
+    align-items: center;
+
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.linked-text {
+    color: #000000;
+}
+
+.linked-icon {
+    transition: transform var(--transition-animation);
+}
+
+.linked-link:hover .linked-icon {
+    transform: translate(5px, -5px);
+}

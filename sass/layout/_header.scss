@@ -1,0 +1,51 @@
+.main-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    padding: 16px;
+}
+
+.main-nav-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    color: #000000;
+
+    transition: color var(--transition-animation);
+}
+
+.nav-link:hover, 
+.nav-link:focus {
+    color: #ffff;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.contact-me-button {
+    display: inline-block;
+    min-width: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    font-family: inherit;
+    font-size: 20px;
+    color: #ffff;
+    background-color: #34312D;
+    border-radius: 90px;
+
+    transition: background-color var(--transition-animation);
+}
+
+.contact-me-button:hover,
+.contact-me-button:focus {
+    background-color: #14110F
+}
