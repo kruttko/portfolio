@@ -1,9 +1,20 @@
+.header-nav.container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+}
+
 .main-nav {
     position: fixed;
     top: 0;
-    right: 0;
+    width: 100%;
 
-    padding: 16px;
+    overflow: hidden;
+
+    padding: 10px;
+    background-color: none;
+    // background: linear-gradient(#ccc5b9, #afa89d);
+    // box-shadow: inset 1px 1px 10px 5px rgba(128, 127, 127, 0.478);
 }
 
 .main-nav-list {

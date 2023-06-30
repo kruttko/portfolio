@@ -1,13 +1,23 @@
+.intro-section {
+    margin-top: 30px;
+}
+
 .intro-section-container {
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 35px;
 }
 
 .main-photo {
     display: inline-block;
     width: 800px;
-    height: 470px;
-    margin-right: 100px;
+    height: 425px;
+    margin-right: 60px;
+    // margin-left: 20px;
+    padding-top: 60px;
+    padding-bottom: 40px;
 
     background-image: url(/images/my-photo.jpg);
     background-size: cover;

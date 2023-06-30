@@ -4,8 +4,8 @@
 
 .container {
   width: 1300px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -30,7 +30,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   color: #0a100d;
-  background-color: #b9baa3;
+  background: linear-gradient(#ccc5b9, #403d39);
 }
 
 .list, p {
@@ -60,11 +60,19 @@ h1, h2 {
   padding-bottom: 100px;
 }
 
+.header-nav.container {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+}
+
 .main-nav {
   position: fixed;
   top: 0;
-  right: 0;
-  padding: 16px;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+  background-color: none;
 }
 
 .main-nav-list {
@@ -107,16 +115,25 @@ h1, h2 {
   background-color: #14110F;
 }
 
+.intro-section {
+  margin-top: 30px;
+}
+
 .intro-section-container {
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 35px;
 }
 
 .main-photo {
   display: inline-block;
   width: 800px;
-  height: 470px;
-  margin-right: 100px;
+  height: 425px;
+  margin-right: 60px;
+  padding-top: 60px;
+  padding-bottom: 40px;
   background-image: url(/images/my-photo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -175,6 +192,10 @@ h1, h2 {
   margin-bottom: 30px;
 }
 
+.location-img {
+  transform: translateY(2px);
+}
+
 .location {
   font-family: inherit;
   font-weight: 400;
@@ -187,5 +208,19 @@ h1, h2 {
   font-family: inherit;
   font-weight: 400;
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.about-me-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-me-list:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-photo:not(:last-child) {
+    margin-right: 26px;
+  }
 }/*# sourceMappingURL=main.css.map */
